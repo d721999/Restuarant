@@ -1,0 +1,74 @@
+.list-table-format
+{
+    display:grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border:1px groove #cacaca;
+    font-size: 18px;
+    background-color:white;
+    margin-top: 10px;
+
+
+}
+.add
+{
+    width: 80%;
+    margin-left:20px;
+    margin-top: 10px;
+}
+ .column-heading
+{
+   color:blue;
+  text-shadow: 3px 8px 3px rgb(151, 149, 149);
+
+}
+.list-table-format img{
+    width: 50px;
+    border-radius: 50%;
+
+
+}
+.name-title
+{
+    color:black;
+
+}
+.category-title
+{
+    color: black;
+
+}
+.price-title
+{
+    color: black;
+
+}
+
+.curser
+{
+    cursor: pointer;
+    color:red;
+    font-size: 35px;
+}
+.page-name
+{
+    color: blue;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 5px 10px 3px rgb(124, 123, 123);
+    text-align:left;
+}
+@media (max-width:600px) {
+    .list-table-format
+    {
+        grid-template-columns:1fr 3fr 1fr;
+        gap: 15px;
+    }
+    .list-table-format.title
+    {
+        display: none;
+
+    }
+}

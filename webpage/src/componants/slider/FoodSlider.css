@@ -1,0 +1,38 @@
+.w-full
+{
+    height:300px;
+    width: 80vw;
+    margin: 5px 10px 10px 90px;
+    border-radius: 20px;
+    background-color: red;
+    
+}
+.relative img
+{
+ position: relative;
+ left: -90px;
+ border-radius: 20px;
+ margin-top:0px;
+
+}
+@media (max-width:900px) {
+    .w-full
+{
+    height:200px;
+    width: 140vw;
+    margin: 30px 10px 40px 45px;
+    border-radius: 20px;
+    background-color: red;
+    
+}
+.relative img
+{
+ position: relative;
+ left: -45px;
+ border-radius: 20px;
+ margin-top:0px;
+
+}
+    
+}
+

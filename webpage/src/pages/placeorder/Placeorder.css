@@ -1,0 +1,115 @@
+.place-order
+{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top:100px;
+}
+@media (max-width:900px) {
+.place-order
+{
+   
+    align-items: center;
+    
+   
+    
+}
+    
+}
+.place-order-left
+{
+    width:100%;
+    max-width: max(30%,500px);
+}
+fieldset 
+{
+   background-color:white; 
+   padding: 30px;
+   padding-top:0px;
+   box-shadow: 0px 0px 20px 5px gray;
+   border-radius: 20px;
+   margin-left: 50px;
+   border: 2px groove orangered;
+  
+
+  
+   
+}
+legend  .title
+{
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px brown;
+    font-size:24px;
+    
+    font-weight: 600;
+    margin-bottom: 50px;
+    color:brown;
+    animation-name:legendanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: to right;
+
+}
+.cart-total h2
+{
+    color:brown;
+}
+.place-order-left input
+{
+    margin-bottom:15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: orangered;
+    background-color:rgb(245, 216, 206);
+}
+.place-order-left .multi-fields
+{
+    display: flex;
+    gap:10px;
+    
+}
+.place-order-right
+{
+    width: 100%;
+    max-width:max(40%,400px);
+   box-shadow: 0px 0px 20px 5px gray;
+   padding: 30px;
+   border-radius: 20px;
+   margin: 30px;
+ 
+
+}
+.place-order .cart-total
+{
+    margin-top:30px;
+
+}
+.payment-getway img
+{
+    width: 200px;
+    height: 80px;
+    margin-top: 40px;
+    padding: 10px;
+}
+@media (max-width:750px) {
+    .place-order 
+    {
+      flex-direction: column;
+
+    }
+}
+@keyframes legendanimation {
+    100%{
+        color: red;
+       
+    
+    }
+    
+}
+

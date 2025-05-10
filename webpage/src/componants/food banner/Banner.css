@@ -1,0 +1,14 @@
+.banner img
+{
+    position:relative;
+    left:10px;
+    border-radius: 10px 0px 10px 10px;
+    background-size: cover;
+    width:100%;
+    justify-content: center;
+    margin-top:100px;
+    border: 2px groove #ff4500;
+    padding-top:10px;
+    border-radius: 10px;
+    background-color:white;
+}
