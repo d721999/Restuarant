@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React,{ useState } from 'react';
 import Navbar from './componants/navbar/Navbar'
 import Home from './pages/home/Home'
 import Cart from './pages/Cart/Cart'
