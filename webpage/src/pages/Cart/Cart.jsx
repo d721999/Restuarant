@@ -3,8 +3,8 @@ import './Cart.css'
 import { StoreContext } from '../../context/StoreContext'
 import { assets } from '../../assets/assets';
 import { useNavigate } from 'react-router-dom';
-import Offer1 from '../../componants/Offers/Offer1';
-import { ToastContainer, toast } from 'react-toastify';
+import Offer1 from '../../components/Offers/Offer1';
+import { ToastContainer } from 'react-toastify';
 
 
 const Cart = () => {

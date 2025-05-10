@@ -1,11 +1,11 @@
 import React,{ useState } from 'react'
 import './Home.css'
 
-import Exploremenu from '../../componants/exploremenu/exploremenu'
-import FoodDisplay from "../../componants/foodDisplay/foodDisplay";
-import AppDownload from '../../componants/AppDownload/AppDownload'
-import Banner from '../../componants/food banner/Banner'
-import FoodSlider from '../../componants/slider/FoodSlider'
+import Exploremenu from '../../components/exploremenu/exploremenu'
+import FoodDisplay from "../../components/foodDisplay/foodDisplay";
+import AppDownload from '../../components/AppDownload/AppDownload'
+import Banner from '../../components/food banner/Banner'
+import FoodSlider from '../../components/slider/FoodSlider'
 const Home = () => {
   const [category,setCategory] = useState("all");
   return (

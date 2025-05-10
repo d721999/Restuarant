@@ -1,11 +1,11 @@
 import React,{ useState } from 'react';
-import Navbar from './componants/navbar/Navbar';
+import Navbar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
 import Cart from './pages/Cart/Cart';
 import Placeorder from './pages/placeorder/Placeorder';
 import { Routes,Route } from 'react-router-dom';
-import Footer from './componants/Footer/Footer';
-import Loginpopup from './componants/Login-popup/Loginpopup';
+import Footer from './components/Footer/Footer';
+import Loginpopup from './components/Login-popup/Loginpopup';
 import Verify from './pages/verify/Verify';
 import MyOrders from './pages/myOrder/MyOrders';
 import "slick-carousel/slick/slick.css";
