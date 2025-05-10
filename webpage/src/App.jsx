@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Navbar from './Componants/navbar/Navbar'
+import Navbar from './componants/navbar/Navbar'
 import Home from './pages/home/Home'
 import Cart from './pages/Cart/Cart'
 import Placeorder from './pages/placeorder/Placeorder'
