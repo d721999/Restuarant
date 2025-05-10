@@ -6,7 +6,7 @@ import Placeorder from './pages/placeorder/Placeorder'
 import { Routes,Route } from 'react-router-dom'
 import Footer from './componants/Footer/Footer'
 import Loginpopup from './componants/Login-popup/Loginpopup'
-import Verify from './pages/verify/verify'
+import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/myOrder/MyOrders'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
