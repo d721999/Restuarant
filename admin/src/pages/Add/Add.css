@@ -75,7 +75,7 @@
     max-width: 150px;
     border: none;
     padding: 10px;
-    background-color:rgb(78, 78, 247);
+    background-color:orangered;
     color: white;
     cursor: pointer;
     width: 130px;
@@ -86,16 +86,37 @@
     box-shadow:inset 0px 0px 1px 0px  #d1d0d0;
 }
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
     
     .add form
     {
         
       position:relative;
       left: 20vw;
-      
       position: fixed;
+      top:7vh;
+      
+    }
+    .page-title
+    {
+        margin-left: 23vw;
+        margin-top: 10px;
+        position: fixed;
+        top:4vh;
+        font-size: 40px;
+    }
+    
+}
+@media (max-width:480px) {
+    
+    .add form
+    {
+        
+      position:relative;
+      left: 10vw;
       top:15vh;
+      height: auto;
+      width: max(20vw,20px);
       
     }
     .page-title
@@ -105,5 +126,31 @@
         position: fixed;
         top: 70px;
     }
+    .add-product-name input,.add-product-description textarea
+    {
+    width: 70vw;
+
+    }
+    .add-category-price select
+     {
+   
+     }
+    .add-btn
+    {
+        position: relative;
+        left:-78vw;
+        top: 30vw;
+        
+        padding: 10px 40px 10px ;
+    
+    }
+    .add-category-price input
+    {
+    position: relative;
+    top: 17px;
+  
+    }
+   
+
     
 }

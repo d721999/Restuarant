@@ -53,9 +53,10 @@
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:480px) {
       .sidebar-option  p {
         display:none;
+        
 
 
     }
@@ -63,7 +64,8 @@
     {
        
         height:auto;
-        width: 15vw;
+        width: 16vw;
+        height: auto;
        
         
     }

@@ -9,7 +9,7 @@
     position:sticky;
     top:0px;
     z-index: 1;
-    height: 60px;
+    height: 70px;
     border-bottom: 1px groove #c9c7c7;
    
 }
@@ -198,6 +198,11 @@ input::placeholder
    }
 }
 @media (max-width:900px){
+    .navbar
+    {
+        
+    }
+    
     .navbar .logo{
         width: 120px;
     }

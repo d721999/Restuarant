@@ -10,7 +10,7 @@ import { ToastContainer} from 'react-toastify';
 
 const App = () => {
   // backend url
-  const url = "https://restuarant-gbs3.onrender.com";
+  const url = "https://backend-8p4u.onrender.com";
   return (
     <div>
       <ToastContainer/>

@@ -158,3 +158,50 @@ select option
     }
     
 }
+
+@media (max-width:480px) {
+    .order-item
+    {
+       
+        grid-template-columns: 1fr 5fr 4fr;
+        padding: 10px 8px;
+        position: relative;
+        width:100vw;
+        left:30px;
+       
+    
+    }
+    .order-item-address
+    {
+        display: block;
+    }
+    .order-page-h3 h3
+    {
+        margin-top: 10vh;
+        margin-left: 10vw;
+
+    }
+     .order-page-h3 
+    {
+        margin-top: 10vh;
+        margin-left: 20vw;
+
+    }
+    .Rs{
+        position: relative;
+        left:70px;
+        top: -26px;
+    }
+    .order-item select
+    {
+        padding: 5px;
+        font-size: 12px;
+
+    }
+    .order-item img
+    {
+        width: 40px;
+      
+    }
+    
+}
