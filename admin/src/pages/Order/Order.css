@@ -60,6 +60,7 @@
 .Rs
 {
     color:blue;
+    
 }
 .order-item-food, .order-item-name
 {
@@ -95,6 +96,8 @@
     color: white;
     box-shadow: inset 0px 0px 8px 0px #f7f6f6;
     cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
 
 }
 select option
@@ -117,8 +120,31 @@ select option
         font-size: 12px;
         grid-template-columns: 0.5fr 2fr 1fr;
         padding: 15px 8px;
+        position: relative;
+        width: 70vw;
+        left:20vw;
+   
+
+       
 
     
+    }
+    .order-page-h3 h3
+    {
+        margin-top: 10vh;
+        margin-left: 10vw;
+
+    }
+     .order-page-h3 
+    {
+        margin-top: 10vh;
+        margin-left: 20vw;
+
+    }
+    .Rs{
+        position: relative;
+        left: 87px;
+        top: -26px;
     }
     .order-item select
     {

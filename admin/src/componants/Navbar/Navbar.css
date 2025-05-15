@@ -40,19 +40,40 @@ hr
     
 
 }
-@media (max-width:900px) {
+@media (max-width:1000px) {
   .navbar
   {
    width:130vw;
+   position: fixed;
+   top: 0px;
   }
     
   .navbar .profile
   {
     position: relative;
-    left:0px;
+    left:-15vw;
   }
   .login-title
   {
-    margin-left:250px;
+    margin-left:600px;
   }
+   .login-title:hover{
+    color: blue;
+   }
+}
+@media (max-width:780px) {
+  
+    
+  .navbar .profile
+  {
+    position: relative;
+    left:-10vw;
+  }
+  .login-title
+  {
+    margin-left:500px;
+  }
+   .login-title:hover{
+    color: blue;
+   }
 }

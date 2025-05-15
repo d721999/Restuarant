@@ -45,7 +45,7 @@
 {
     margin-top:30px;
     font-size: 30px;
-    text-shadow: 5px 8px 3px rgb(165, 164, 164);
+    text-shadow: 5px 8px 3px rgb(204, 203, 203);
 }
 .add-category-price
 {
@@ -68,7 +68,7 @@
     background-color:#4343fc;
     color: white;
     border-radius: 10px;
-    box-shadow:inset 0px 0px 10px 0px  rgb(190, 190, 190);
+    box-shadow:inset 0px 0px 0px 0px  rgb(190, 190, 190);
 }
 .add-btn
 {
@@ -83,11 +83,27 @@
     border-radius: 10px;
     position: relative;
     top:25px;
-    box-shadow:inset 0px 0px 10px 0px  #d1d0d0;
+    box-shadow:inset 0px 0px 1px 0px  #d1d0d0;
 }
 
 @media (max-width:900px) {
     
-    
+    .add form
+    {
+        
+      position:relative;
+      left: 20vw;
+      
+      position: fixed;
+      top:15vh;
+      
+    }
+    .page-title
+    {
+        margin-left: 25vw;
+        margin-top: 10px;
+        position: fixed;
+        top: 70px;
+    }
     
 }
