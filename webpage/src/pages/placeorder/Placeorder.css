@@ -101,6 +101,7 @@ legend  .title
     .place-order 
     {
       flex-direction: column;
+      margin-left: -10px;
 
     }
 }
