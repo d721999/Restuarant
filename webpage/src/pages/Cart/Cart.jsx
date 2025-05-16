@@ -83,7 +83,7 @@ const Cart = () => {
 
         </div>
       </div>
-      <Offer1 />
+      <Offer1/>
     </>
   )
 }
