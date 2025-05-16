@@ -117,7 +117,7 @@ const Placeorder = () => {
           <button type='submit'>PROCEED TO PAYMENT</button>
         </div>
         <div className="payment-getway">
-          <img src='../../../public/paymentmethods.png' alt="payment image1" />
+          <img src='./paymentmethods.png' alt="payment image1" />
           <img src='../../../public/payment-logo.webp' alt="payment image2" />
         </div>
 
