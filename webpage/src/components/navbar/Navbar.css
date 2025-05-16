@@ -232,9 +232,15 @@ input::placeholder
     .navbar
     {
         height:6rem;
-        border-bottom: 3px solid orangered;
+        border-bottom: 2px groove orangered;
       
        
+    }
+    .navbar .logo
+    {
+        height:80px;
+        width: 200px;
+        margin-left:30px;
     }
    
     .navbar-right button{
