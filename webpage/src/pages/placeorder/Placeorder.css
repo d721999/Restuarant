@@ -30,7 +30,8 @@ fieldset
    box-shadow: 0px 0px 20px 5px gray;
    border-radius: 20px;
    margin-left: 50px;
-   border: 2px groove orangered;
+   opacity: 90%;
+   /*border: 2px groove orangered;*/
   
 
   
@@ -39,11 +40,10 @@ fieldset
 legend  .title
 {
     position: relative;
-    top: 20px;
+    top: 5px;
     padding: 5px;
     text-shadow: 5px 5px 5px brown;
     font-size:24px;
-    
     font-weight: 600;
     margin-bottom: 50px;
     color:brown;
@@ -103,6 +103,11 @@ legend  .title
       flex-direction: column;
       margin-left: -30px;
 
+    }
+    fieldset 
+    {
+        box-shadow: 0px 0px 10px 5px #9b9a9a;
+        background-color: black;
     }
 }
 @keyframes legendanimation {
