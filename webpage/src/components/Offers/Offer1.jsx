@@ -5,7 +5,7 @@ const Offer1 = () => {
   return (
     <div  className='offer-container'>
         <div className="offer1">
-            <Link to='/'><img src = "../../../public/chowmin_offer.gif"  alt="offer image1" /></Link>
+            <Link to='/'><img src = "./chowmin_offer.gif"  alt="offer image1" /></Link>
         </div>
 
     </div>

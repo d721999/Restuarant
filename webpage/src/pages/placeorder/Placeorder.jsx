@@ -118,7 +118,7 @@ const Placeorder = () => {
         </div>
         <div className="payment-getway">
           <img src='./paymentmethods.png' alt="payment image1" />
-          <img src='../../../public/payment-logo.webp' alt="payment image2" />
+          <img src='./payment-logo.webp' alt="payment image2" />
         </div>
 
 
