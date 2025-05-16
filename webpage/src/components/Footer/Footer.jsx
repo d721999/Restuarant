@@ -28,16 +28,16 @@ const Footer = () => {
 
                 </div>
                 <div className="footer-content-right">
-                    <h2>GET IN TOUCH</h2>
+                    <h2>Contact-Us</h2>
                     <ul>
-                        <li>+1-212-654-546</li>
-                        <li>contact@gmail.com</li>
+                        <li>+91-8219588688</li>
+                        <li>thakur721998@gmail.com</li>
                     </ul>
 
                 </div>
             </div>
             <hr />
-            <p className="footer-copyright">Copyright 2025 Food Hub.com - All Rights Reserved</p>
+            <p className="footer-copyright">Copyright 2025 FoodHub.com - All Rights Reserved</p>
 
 
 
