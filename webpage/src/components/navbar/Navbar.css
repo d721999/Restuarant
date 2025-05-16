@@ -168,7 +168,7 @@ color:#f54105;
 
 input::placeholder
 {
-    color:gray;
+    color:#2e2e2e;
     font-size: 15px;
     opacity:50px;
     text-align:left;
@@ -198,10 +198,7 @@ input::placeholder
    }
 }
 @media (max-width:900px){
-    .navbar
-    {
-        
-    }
+    
     
     .navbar .logo{
         width: 120px;
@@ -230,13 +227,30 @@ input::placeholder
    
     .navbar-menu{
        display: none;
+      
     }
+    .navbar
+    {
+        height:6rem;
+        border-bottom: 3px solid orangered;
+      
+       
+    }
+   
     .navbar-right button{
         padding: 8px 20px;
         font-size: 15px;
         width: 90px;
         height:40px;
        }
+       .navbar-right img
+          {
+        
+            height: 50px;
+            width: 50px;
+            padding:2px;
+          }
+
    
 }
     
