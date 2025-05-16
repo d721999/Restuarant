@@ -7,6 +7,7 @@
 }
 body{
   min-height:100vh;
+  margin-left:-12px;
   
 }
 @media (max-width:900px){
