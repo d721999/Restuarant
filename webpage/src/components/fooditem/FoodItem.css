@@ -8,6 +8,7 @@
     animation:fadeIn 1s;
     cursor: pointer;
     background-color:white;
+    
 }
 
 .food-item:hover
@@ -88,6 +89,7 @@ width: 70px;
     position: relative;
 
 }
+
 .food-item-img-container .add
 {
     width: 35px ;

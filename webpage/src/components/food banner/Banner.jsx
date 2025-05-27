@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className='banner-container'>
         <div className="banner">
-            <img src='./footer_img.gif' alt="" />
+            <img src='./footer-banner.gif' alt="" />
         </div>
     </div>
   )
